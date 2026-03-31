@@ -1,0 +1,11 @@
+<body style="text-align:center; font-family:Arial;">
+    <h2>Quiz</h2>
+    <p>You won ₹10,000! Click this link now!</p>
+    <form method="POST">
+        <input type="radio" name="q1" value="safe"> Safe<br>
+        <input type="radio" name="q1" value="scam"> Scam<br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <h3>{{ result }}</h3>
+    <a href="/">Back</a>
+</body>
