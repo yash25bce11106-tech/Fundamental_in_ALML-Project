@@ -1,0 +1,9 @@
+<body style="text-align:center; font-family:Arial;">
+    <h2>Check URL</h2>
+    <form method="POST">
+        <input type="text" name="url" placeholder="Enter URL"><br><br>
+        <button type="submit">Check</button>
+    </form>
+    <h3>{{ result }}</h3>
+    <a href="/">Back</a>
+</body>
