@@ -1,0 +1,9 @@
+<body style="text-align:center; font-family:Arial;">
+    <h2>Check Message</h2>
+    <form method="POST">
+        <textarea name="message" placeholder="Enter message"></textarea><br><br>
+        <button type="submit">Check</button>
+    </form>
+    <h3>{{ result }}</h3>
+    <a href="/">Back</a>
+</body>
