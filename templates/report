@@ -1,0 +1,8 @@
+<body style="text-align:center; font-family:Arial;">
+    <h2>Report Scam</h2>
+    <form method="POST">
+        <textarea name="scam" placeholder="Describe scam"></textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <a href="/">Back</a>
+</body>
